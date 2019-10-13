@@ -10,7 +10,7 @@ public class LoginServlet extends HttpServlet {
       HttpServletResponse response) throws ServletException, IOException 
   {
     // reading the user input
-    String color= request.getParameter("color");    
+    String color= request.getParameter("FirstName");    
     PrintWriter out = response.getWriter();
     out.println ("<html><body><h1>Hello Zulfi</h1></body</html");  
   }  
